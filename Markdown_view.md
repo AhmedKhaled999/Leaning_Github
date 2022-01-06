@@ -37,7 +37,8 @@ ___
 > this is a qute
 
 <!--Links-->
-[Common Git commands](https://github.com/RahmaYasser/common-git-commands)
+[basic-writing-and-formatting-syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+"Github Docs")
 
 [Common Git commands](https://github.com/RahmaYasser/common-git-commands
 "Common Git commands as a title")
@@ -62,8 +63,7 @@ ___
 
 
 <!--Images-->
-![Markdown Logo]
-(https://images.app.goo.gl/Qc2e3XFjn9rcrmYr5)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 <!--Code Blocks-->
 
