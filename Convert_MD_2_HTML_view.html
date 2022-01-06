@@ -1,0 +1,123 @@
+<!--Headings-->
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<hr>
+<!--Italics-->
+<p><em>This text</em> is italic</p>
+<p>*This text* is italic</p>
+<p><em>This text also </em> is italic</p>
+<!--Strong-->
+<hr>
+<p><strong>This text</strong> is bold</p>
+<p><strong>This text also</strong> is bold</p>
+<!--Strikethrough-->
+<p><del>This text</del> is strikethrough</p>
+<!--Horizontal Rule-->
+<hr>
+<!--Blockquote-->
+<blockquote>
+<p>this is a qute</p>
+</blockquote>
+<!--Links-->
+<p><a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax" title="Github Docs">basic-writing-and-formatting-syntax</a></p>
+<p><a href="https://github.com/RahmaYasser/common-git-commands" title="Common Git commands as a title">Common Git commands</a></p>
+<!--UL-->   
+<ul>
+<li>Item 1 </li>
+<li>Item 2</li>
+<li>Item 3<ul>
+<li>Nested Item 1</li>
+<li>Nested Item 2</li>
+</ul>
+</li>
+</ul>
+<!--OL-->
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<hr>
+<!--Inline Code Block-->
+<p>This is a paragraph</p>
+
+
+<!--Images-->
+<p><img src="https://myoctocat.com/assets/images/base-octocat.svg" alt="This is an image"></p>
+<!--Code Blocks-->
+<hr>
+<pre><code class="lang-bash">  <span class="hljs-built_in">npm</span> install 
+
+  <span class="hljs-built_in">npm</span> start
+</code></pre>
+<pre><code class="lang-javascript">  <span class="hljs-keyword">function</span> <span class="hljs-title">add</span>(num1,num2){
+   <span class="hljs-keyword">return</span> <span class="hljs-type">num1</span> + num2; 
+  }
+</code></pre>
+<pre><code class="lang-python">   <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">add</span><span class="hljs-params">(num1,num2)</span></span>:
+     <span class="hljs-keyword">return</span> num1 + num2
+</code></pre>
+<!--Tables-->
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ahmed</td>
+<td>ak@99.com</td>
+</tr>
+<tr>
+<td>Khaled</td>
+<td>ak@39.com</td>
+</tr>
+</tbody>
+</table>
+<!--Task Lists-->
+<ul>
+<li>[x] Task 1 </li>
+<li>[x] Task 2 </li>
+<li>[ ] Task 3</li>
+</ul>
+<hr>
+<!--Markdown_details-collapsible-->
+<h1 id="a-collapsible-section-with-markdown">A collapsible section with markdown</h1>
+<details>
+  <summary>Click to expand!</summary>
+
+## Heading
+1. A numbered
+2. list
+  <em> With some
+  </em> Sub bullets
+</details>
+
+<h1 id="a-collapsible-section-with-code">A collapsible section with code</h1>
+<details>
+  <summary>Click to expand!</summary>
+
+<code>bash
+  npm install 
+
+  npm start</code>
+
+<code>javascript
+  function add(num1,num2){
+   return num1 + num2; 
+  }</code>
+
+<code>python
+   def add(num1,num2):
+     return num1 + num2</code> 
+</details>
+
+<p><strong>NB:</strong> Make sure you have an <strong>empty line</strong> after the closing <code>&lt;/summmary&gt;</code> tag.</p>
+<p><strong>NB:</strong> Make sure you have an <strong>empty line</strong> after the closing <code>&lt;/details&gt;</code> tag if you have
+multiple collapsible sections.</p>
