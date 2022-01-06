@@ -1,2 +1,2 @@
 # Leaning_Github
-Just a sampe Repo to learn basics of Github and Markdown script 
+Just a sample Repo to learn basics of Github and Markdown script 
