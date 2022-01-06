@@ -6,7 +6,7 @@
 ##### Heading 5 
 ###### Heading 6 
 
-
+---
 
 <!--Italics-->
 
@@ -19,6 +19,8 @@ _This text also _ is italic
 
 <!--Strong-->
 
+---
+
 **This text** is bold
 
 __This text also__ is bold
@@ -29,16 +31,17 @@ __This text also__ is bold
 
 <!--Horizontal Rule-->
 
----
 ___
 
-<!-- Blockquote-->
+<!--Blockquote-->
 > this is a qute
 
 <!--Links-->
-[Common Git commands](https://github.com/RahmaYasser/common-git-commands)
+[basic-writing-and-formatting-syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+"Github Docs")
 
-[Common Git commands](https://github.com/RahmaYasser/common-git-commands"Common Git commands as a title")
+[Common Git commands](https://github.com/RahmaYasser/common-git-commands
+"Common Git commands as a title")
 
 
 <!--UL-->   
@@ -53,82 +56,83 @@ ___
 1. Item 2
 1. Item 3
 
+___
+
 <!--Inline Code Block-->
 <p>This is a paragraph</p>
 
 
 <!--Images-->
-![Markdown Logo]
-(https://images.app.goo.gl/Qc2e3XFjn9rcrmYr5)
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 <!--Code Blocks-->
- 
-'''bash
+
+--- 
+
+```bash
   npm install 
   
   npm start
-'''
+```
 
-'''javascript
+```javascript
   function add(num1,num2){
    return num1 + num2; 
   }
-'''
+```
 
-'''python
+```python
    def add(num1,num2):
      return num1 + num2 
-''' 
+``` 
 <!--Tables-->
 | Name   |Email     | 
-|-------- ----------|
+|--------|----------|
 | Ahmed  |ak@99.com |
 | Khaled |ak@39.com |
 
 <!--Task Lists-->
-*[x] Task 1 
-*[x] Task 2 
-*[ ] Task 3
+* [x] Task 1 
+* [x] Task 2 
+* [ ] Task 3
 ---
 <!--Markdown_details-collapsible-->
+
 # A collapsible section with markdown
 <details>
-	<sammery>Click to expand!</summary>
+  <summary>Click to expand!</summary>
 
 ## Heading
 1. A numbered
 2. list
-  *With some
-  *Sub bullets
-
+  * With some
+  * Sub bullets
 </details>
 
 # A collapsible section with code
-
 <details>
-	<sammery>Click to expand!</summary>
+  <summary>Click to expand!</summary>
 
-'''bash
+```bash
   npm install 
   
   npm start
-'''
+```
 
-'''javascript
+```javascript
   function add(num1,num2){
    return num1 + num2; 
   }
-'''
+```
 
-'''python
+```python
    def add(num1,num2):
      return num1 + num2 
-''' 
-
+``` 
 </details>
 
-**NB:** Make sure you have an **empty line** after the closing '</summmary>' tag.
+**NB:** Make sure you have an **empty line** after the closing `</summmary>` tag.
 
-**NB:** Make sure you have an **empty line** after the closing '</details>' tag if you have
+**NB:** Make sure you have an **empty line** after the closing `</details>` tag if you have
 multiple collapsible sections.
 
