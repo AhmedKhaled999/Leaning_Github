@@ -6,7 +6,7 @@
 ##### Heading 5 
 ###### Heading 6 
 
-
+---
 
 <!--Italics-->
 
@@ -19,6 +19,8 @@ _This text also _ is italic
 
 <!--Strong-->
 
+---
+
 **This text** is bold
 
 __This text also__ is bold
@@ -29,10 +31,9 @@ __This text also__ is bold
 
 <!--Horizontal Rule-->
 
----
 ___
 
-<!-- Blockquote-->
+<!--Blockquote-->
 > this is a qute
 
 <!--Links-->
@@ -54,6 +55,8 @@ ___
 1. Item 2
 1. Item 3
 
+___
+
 <!--Inline Code Block-->
 <p>This is a paragraph</p>
 
@@ -63,7 +66,9 @@ ___
 (https://images.app.goo.gl/Qc2e3XFjn9rcrmYr5)
 
 <!--Code Blocks-->
- 
+
+--- 
+
 ```bash
   npm install 
   
@@ -87,28 +92,26 @@ ___
 | Khaled |ak@39.com |
 
 <!--Task Lists-->
-*[x] Task 1 
-*[x] Task 2 
-*[ ] Task 3
+* [x] Task 1 
+* [x] Task 2 
+* [ ] Task 3
 ---
 <!--Markdown_details-collapsible-->
 
 # A collapsible section with markdown
 <details>
-	<summery>Click to expand!</summary>
+  <summary>Click to expand!</summary>
 
 ## Heading
 1. A numbered
 2. list
-  *With some
-  *Sub bullets
-
+  * With some
+  * Sub bullets
 </details>
 
 # A collapsible section with code
-
 <details>
-	<summery>Click to expand!</summary>
+  <summary>Click to expand!</summary>
 
 ```bash
   npm install 
@@ -126,11 +129,10 @@ ___
    def add(num1,num2):
      return num1 + num2 
 ``` 
-
 </details>
 
-**NB:** Make sure you have an **empty line** after the closing '</summmary>' tag.
+**NB:** Make sure you have an **empty line** after the closing `</summmary>` tag.
 
-**NB:** Make sure you have an **empty line** after the closing '</details>' tag if you have
+**NB:** Make sure you have an **empty line** after the closing `</details>` tag if you have
 multiple collapsible sections.
 
