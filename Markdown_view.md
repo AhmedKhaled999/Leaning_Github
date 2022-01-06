@@ -38,7 +38,8 @@ ___
 <!--Links-->
 [Common Git commands](https://github.com/RahmaYasser/common-git-commands)
 
-[Common Git commands](https://github.com/RahmaYasser/common-git-commands"Common Git commands as a title")
+[Common Git commands](https://github.com/RahmaYasser/common-git-commands
+"Common Git commands as a title")
 
 
 <!--UL-->   
@@ -63,25 +64,25 @@ ___
 
 <!--Code Blocks-->
  
-'''bash
+```bash
   npm install 
   
   npm start
-'''
+```
 
-'''javascript
+```javascript
   function add(num1,num2){
    return num1 + num2; 
   }
-'''
+```
 
-'''python
+```python
    def add(num1,num2):
      return num1 + num2 
-''' 
+``` 
 <!--Tables-->
 | Name   |Email     | 
-|-------- ----------|
+|--------|----------|
 | Ahmed  |ak@99.com |
 | Khaled |ak@39.com |
 
@@ -91,9 +92,10 @@ ___
 *[ ] Task 3
 ---
 <!--Markdown_details-collapsible-->
+
 # A collapsible section with markdown
 <details>
-	<sammery>Click to expand!</summary>
+	<summery>Click to expand!</summary>
 
 ## Heading
 1. A numbered
@@ -106,24 +108,24 @@ ___
 # A collapsible section with code
 
 <details>
-	<sammery>Click to expand!</summary>
+	<summery>Click to expand!</summary>
 
-'''bash
+```bash
   npm install 
   
   npm start
-'''
+```
 
-'''javascript
+```javascript
   function add(num1,num2){
    return num1 + num2; 
   }
-'''
+```
 
-'''python
+```python
    def add(num1,num2):
      return num1 + num2 
-''' 
+``` 
 
 </details>
 
